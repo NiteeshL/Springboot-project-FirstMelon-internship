@@ -1,0 +1,7 @@
+CREATE TABLE students (
+     id SERIAL PRIMARY KEY,
+     name VARCHAR(25),
+     roll_number VARCHAR(25),
+     email VARCHAR(25),
+     department VARCHAR(25)
+);
